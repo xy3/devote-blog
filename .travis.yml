@@ -8,8 +8,8 @@ branches:
     - master # build master branch only
 install:
   - cd themes/obsidian
-  - cd ../..
   - npm install
+  - cd ../..
 script:
   - hexo generate # generate static files
 deploy:
