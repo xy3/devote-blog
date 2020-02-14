@@ -10,6 +10,8 @@ install:
   - cd themes/obsidian
   - npm install
   - cd ../..
+  - ls
+  - npm install
 script:
   - hexo generate # generate static files
 deploy:
