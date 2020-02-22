@@ -100,3 +100,7 @@ theme: obsidian
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: ''
+
+owl:
+  css: default
+  file: owl.css
