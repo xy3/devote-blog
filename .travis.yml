@@ -7,11 +7,10 @@ branches:
   only:
     - master # build master branch only
 install:
+  - npm install
   - cd themes/obsidian
   - npm install
   - cd ../..
-  - ls
-  - npm install
 script:
   - hexo generate # generate static files
 deploy:
