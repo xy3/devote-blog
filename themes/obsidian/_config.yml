@@ -81,7 +81,7 @@ scrollbar: true
 # google_analytics: 'UA-149874671-1'
 
 # Website favicon
-favicon: /devote-blog/img/favicon.png
+favicon: /img/favicon.png
 
 # rss file
 rss: atom.xml
