@@ -7,7 +7,6 @@ branches:
   only:
     - master # build master branch only
 install:
-  - npm install hexo-tag-youtube-responsive --save
   - npm install
   - cd themes/obsidian
   - npm install
