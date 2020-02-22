@@ -59,13 +59,13 @@ socials:
 TOC: true
 
 # Home page first post default cover image, default use cover
-welcome_cover: /img/cover.jpg
+welcome_cover: /devote-blog/img/cover.jpg
 
 # Article default cover image
-cover: /img/welcome-cover.jpg
+cover: /devote-blog/img/welcome-cover.jpg
 
 # Avatar
-avatar: /img/avatar.png
+avatar: /devote-blog/img/avatar.png
 
 # Disable default scrollbar
 scrollbar: true
@@ -81,7 +81,7 @@ scrollbar: true
 # google_analytics: 'UA-149874671-1'
 
 # Website favicon
-favicon: /img/favicon.png
+favicon: /devote-blog/img/favicon.png
 
 # rss file
 rss: atom.xml
