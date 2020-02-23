@@ -1,6 +1,6 @@
 ﻿---
-title: Devote Functionality Update
-date: 2020-02-15 11:44:09
+title: Devote Progress Report 
+date: 2020-02-19 11:44:09
 tags:
 ---
 
