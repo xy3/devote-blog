@@ -40,7 +40,6 @@ version: "1.4.3"
 
 # Menu setting | format = title_name: link_url
 menu:
-  HOME: /
 
 # Page custom titles
 page_titles:
