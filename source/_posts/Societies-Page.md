@@ -8,12 +8,12 @@ tags:
 
 ## Dedicated page
 
-The societies page is now seperate from the user page, for a more aesthetically pleasing user interface and to compartmentalize the associated code.
+The societies page is now separate from the user page, for a more aesthetically pleasing user interface and to compartmentalize the associated code.
 
 ## Invite links
 
 Invite links are generated using an MD5 substring to hide the society IDs and to create a unique code incorporating the expiry date. Invite links are stored on the database and contain the expiry, uses and societyId. 
-When a user visits an invite link, their societies are updated to include the society they are joing - if the invite code is valid.
+When a user visits an invite link, their societies are updated to include the society they are joining - if the invite code is valid.
 
 ### Invite expiry dates
 
@@ -34,4 +34,4 @@ Removing societies you manage deletes them from the database and all of their as
 
 In this video I demonstrate adding a society, leaving, removing and using invite links.
 
-{% owl youtube 6ZOwRk02nDs %}
+{% owl youtube OUnRs1YCSjk %}
