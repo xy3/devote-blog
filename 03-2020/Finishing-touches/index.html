@@ -5,12 +5,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Start/End dates and states for elections - Devote Blog</title>
+    <title>Finishing touches - Devote Blog</title>
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="google" content="notranslate" />
     
-    <meta name="description" content="Election Start TimesWe needed to have functionality to allow users to set a start and end date for ,"> 
+    <meta name="description" content="Finishing touchesOnce the last features were added to the app, all there was left to do was to refa,"> 
     <meta name="author" content="Devote"> 
     <link rel="alternative" href="atom.xml" title="Devote Blog" type="application/atom+xml"> 
     <link rel="icon" href="/devote-blog/img/favicon.png"> 
@@ -57,7 +57,7 @@
     <div class="navigation animated fadeIn fast delay-1s">
         <img id="home-icon" class="icon-home" src="/devote-blog/img/favicon.png" alt="" data-url="https://xy3.github.io/devote-blog">
         <div id="play-icon" title="Play/Pause" class="iconfont icon-play"></div>
-        <h3 class="subtitle">Start/End dates and states for elections</h3>
+        <h3 class="subtitle">Finishing touches</h3>
         <div class="social">
             <!--        <div class="like-icon">-->
             <!--            <a href="javascript:;" class="likeThis active"><span class="icon-like"></span><span class="count">76</span></a>-->
@@ -86,22 +86,22 @@
                 
                 <a href="javascript:;"><b>「 </b>Article<b> 」</b></a>
                 
-                March 01, 2020
+                March 08, 2020
             </p>
-            <h3 class="post-title animated fadeInDown"><a href="/devote-blog/03-2020/Start-End-dates-and-states-for-elections/" title="Start&#x2F;End dates and states for elections" class="">Start&#x2F;End dates and states for elections</a>
+            <h3 class="post-title animated fadeInDown"><a href="/devote-blog/03-2020/Finishing-touches/" title="Finishing touches" class="">Finishing touches</a>
             </h3>
             
             <p class="post-count animated fadeInDown">
                 
                 <span>
                     <b class="iconfont icon-text2"></b> <i>Words count</i>
-                    2.7k
+                    946
                 </span>
                 
                 
                 <span>
                     <b class="iconfont icon-timer__s"></b> <i>Reading time</i>
-                    2 mins.
+                    1 mins.
                 </span>
                 
                 
@@ -128,23 +128,16 @@
 <div class="article">
     <div class='main'>
         <div class="content markdown animated fadeIn">
-            <link rel="stylesheet" href="/devote-blog/owl.css"><h1 id="Election-Start-Times"><a href="#Election-Start-Times" class="headerlink" title="Election Start Times"></a>Election Start Times</h1><p>We needed to have functionality to allow users to set a start and end date for their election. Before an election is started, users can observe but not vote. Once the current date reaches the start of the election, the app automatically starts it.</p>
-<div class="owl-media owl-video owl-youtube"><iframe src="//www.youtube.com/embed/S7r13EaDS84" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-
-
-
-<h1 id="Election-Start-amp-End-Functionality-and-Election-States"><a href="#Election-Start-amp-End-Functionality-and-Election-States" class="headerlink" title="Election Start &amp; End Functionality and Election States"></a>Election Start &amp; End Functionality and Election States</h1><p> <strong>Election Start Dates</strong><br>A start and an end date can now be set for each election on their dedicated election pages. The input currently recognizes five different wrong inputs but only console logs them when they occur.</p>
-<p><strong>Election States</strong><br>Elections now have one of four states. Awaiting Start, Pending Start, Active and Closed. </p>
-<p><strong>Awaiting Start</strong><br>When an election is made, it is automatically set to Awaiting Start. </p>
-<p><strong>Pending Start</strong><br>If a start date is set before the current date, the election goes into Pending Start. When in pending, candidates can still be added and deleted from the election. </p>
-<p><strong>Active</strong><br>If the start date is before the current date, the election is set to Active and can be voted in immediately. The candidates cannot be modified after the election is active. </p>
-<p><strong>Closed</strong><br>Finally, if an election reaches it’s end date, the system will automatically close the election and wont accept any more votes.</p>
-<div class="owl-media owl-video owl-youtube"><iframe src="//www.youtube.com/embed/fU9bczmvIJA" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-
-
-
-<h2 id="Date-Picker-Error-Feedback"><a href="#Date-Picker-Error-Feedback" class="headerlink" title="Date-Picker Error Feedback"></a>Date-Picker Error Feedback</h2><p>When the functionality to start and end dates was created, the system only logged input errors. I made 8 different error checks when parsing the input of the date-picker. The errors can be seen in the video below.</p>
-<div class="owl-media owl-video owl-youtube"><iframe src="//www.youtube.com/embed/loY5aPDeNDE" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+            <link rel="stylesheet" href="/devote-blog/owl.css"><h1 id="Finishing-touches"><a href="#Finishing-touches" class="headerlink" title="Finishing touches"></a>Finishing touches</h1><p>Once the last features were added to the app, all there was left to do was to refactor and improve the code. We went through the code thoroughly to check for bugs, unused code and areas that could be improved. We also developed some unit tests using the Mocha testing framework and Chai for assertions.</p>
+<h3 id="Other-completed-changes-include"><a href="#Other-completed-changes-include" class="headerlink" title="Other completed changes include:"></a>Other completed changes include:</h3><ul>
+<li>The domain devote.ie was purchased for a more professional looking URL to the website. </li>
+<li>SCSS Style updates</li>
+<li>Technical Specification</li>
+<li>User Manual</li>
+<li>Installation video</li>
+<li>Walkthrough video</li>
+<li>Code restructuring</li>
+</ul>
 
             <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
             <audio id="audio" loop="1" preload="auto" controls="controls"
@@ -186,7 +179,7 @@
             <div class="box sticky animated fadeInRight faster">
                 <div id="toc" class="subbox">
                     <h4>Contents</h4>
-                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Election-Start-Times"><span class="toc-number">1.</span> <span class="toc-text">Election Start Times</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Election-Start-amp-End-Functionality-and-Election-States"><span class="toc-number">2.</span> <span class="toc-text">Election Start &amp; End Functionality and Election States</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Date-Picker-Error-Feedback"><span class="toc-number">2.1.</span> <span class="toc-text">Date-Picker Error Feedback</span></a></li></ol></li></ol>
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Finishing-touches"><span class="toc-number">1.</span> <span class="toc-text">Finishing touches</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Other-completed-changes-include"><span class="toc-number">1.0.1.</span> <span class="toc-text">Other completed changes include:</span></a></li></ol></li></ol></li></ol>
                 </div>
             </div>
             
